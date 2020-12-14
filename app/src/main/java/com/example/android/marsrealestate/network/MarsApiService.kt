@@ -33,7 +33,7 @@ private val moshi = Moshi.Builder()
         .build()
 
 /**
- * Use the Retrofit builder to build a retrofit object using a Moshi converter with our Moshi
+ * Use the Retrofit builder to build a retrofit object using a Moshi converterMoshi
  * object pointing to the desired URL
  */
 private val retrofit = Retrofit.Builder()
